@@ -23,7 +23,7 @@ var MENU_ITEMS = [
 	],
 	//['About Us','/Code/Module/AboutUs/AboutUs.html', {'tw' : '_parent'},
 	['About Us',null, null,
-		['History','/code/module/AboutUs/History.html',{'tw':'_parent'}],
+		['History','/Code/Module/AboutUs/History.html',{'tw':'_parent'}],
 		['Profile','/Code/Module/AboutUs/Profile.html',{'tw':'_parent'}],
 		['Personal Profile','/Code/Module/AboutUs/PersonalProfile.html',{'tw':'_parent'}],
 		['Organising Committee','/Code/Module/AboutUs/OrgCommittee.html',{'tw':'_parent'}],
