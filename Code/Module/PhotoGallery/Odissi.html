@@ -1,0 +1,96 @@
+<html>
+
+<head>
+	<!-- styles for menu, AutoScroll, Header,and Main Menu.-->
+	<link rel="stylesheet" href="/Code/Library/CSS/Style001.css">
+	<link rel="stylesheet" href="/Code/Library/CSS/menu.css">
+	<script language="Javascript" src="/Code/Library/JS/menu/menu.js"></script>
+	<script language="Javascript" src="/Code/Library/JS/menu/menu_items.js"></script>
+	<script language="Javascript" src="/Code/Library/JS/menu/menu_tpl.js"></script>
+	<script language="Javascript" src="/Code/Library/JS/include_html.js"></script>
+	<title>
+		Triveni Kala Kendra
+	</title>
+</head>
+
+<body leftmargin=0 topmargin=0 background="/Image/TKKBackGround.gif">
+
+	<div class="no_spacing" w3-include-html="/Code/Library/HTML/Header.html"></div>
+	<div class="no_spacing">
+		<TABLE WIDTH=1008 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+			<TR>
+				<TD ROWSPAN=2 valign=top WIDTH=200 HEIGHT=481>
+					<IMG SRC="/Image/TKK_04.gif" WIDTH=200 HEIGHT=481 ALT="">
+					<!--Menu Starts Here-->
+					<script language="Javascript">
+						new menu(MENU_ITEMS, MENU_POS);
+					</script>
+					<!--Menu Ends here-->
+				</TD>
+
+				<TD WIDTH=500 valign=top Colspan=2>
+					<!--Body Text Start Here-->
+					<table border=0 cellpadding=0 cellspacing=0>
+						<tr>
+							<TD valign=top background="/Image/TKK_05.gif" width=500 height=91><IMG SRC="/Image/PageTitleImage/Photogallery.gif"
+								 WIDTH=500 HEIGHT=91 ALT=""></TD>
+							<TD valign=top width=308>
+						</tr>
+						<tr>
+							<td valign=top Colspan=2 Background="/Image/TKK_07.gif" height=300>
+								<div class=bodyplaintext align=justify style="padding-right=50px;">
+									<div class="gallery">
+										<a target="_blank" href="/Image/Photogallery/Odissi/LPhoto1.gif">
+											<img src="/Image/Photogallery/Odissi/Photo1.gif" alt="" width="200" height="180">
+										</a>
+										<div class="desc"></div>
+									</div>
+									<div class="gallery">
+										<a target="_blank" href="/Image/Photogallery/Odissi/LPhoto2.gif">
+											<img src="/Image/Photogallery/Odissi/Photo2.gif" alt="" width="200" height="180">
+										</a>
+										<div class="desc"></div>
+									</div>
+									<div class="gallery">
+										<a target="_blank" href="/Image/Photogallery/Odissi/LPhoto3.gif">
+											<img src="/Image/Photogallery/Odissi/Photo3.gif" alt="" width="200" height="180">
+										</a>
+										<div class="desc"></div>
+									</div>
+
+
+
+									<!-- <TABLE BORDER=0 CELLSPACING=1 CELLPADDING=1>
+										<TR>
+											<TD align=center>
+												<%Call Photoframe("8", "200", "180","/Image/Photogallery/Odissi/Photo1.gif","/Image/Photogallery/Odissi/LPhoto1.gif","img")%>
+											</TD>
+											<TD align=center>
+												<%Call Photoframe("8", "200", "180","/Image/Photogallery/Odissi/Photo2.gif","/Image/Photogallery/Odissi/LPhoto2.gif","img")%>
+											</TD>
+											<TD align=center>
+												<%Call Photoframe("8", "200", "180","/Image/Photogallery/Odissi/Photo3.gif","/Image/Photogallery/Odissi/LPhoto3.gif","img")%>
+											</TD>
+
+										</TR> -->
+
+								</div>
+							</td>
+						</tr>
+					</table>
+					<!--Body Text End here-->
+				</TD>
+
+			</TR>
+		</TABLE>
+
+	</div>
+	<div class="no_spacing" w3-include-html="/Code/Library/HTML/Footer.html"></div>
+
+	<script>
+		includeHTML();
+	</script>
+
+</body>
+
+</html>

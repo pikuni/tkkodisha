@@ -1,0 +1,29 @@
+BODY
+{
+}
+A.PageLink1:active
+{
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+A.PageLink1:link
+{
+    FONT-SIZE: 14px;
+    COLOR: saddlebrown;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+A.PageLink1:visited
+{
+    FONT-SIZE: 14px;
+    COLOR: darkred;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+A.PageLink1:hover
+{
+    FONT-SIZE: 14px;
+    COLOR: darkgoldenrod;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
